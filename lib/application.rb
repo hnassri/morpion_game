@@ -1,7 +1,7 @@
 require 'bundler'
 Bundler.require
-require 'game'
-require 'player'
+require_relative 'game'
+require_relative 'player'
 
 class Application
 
