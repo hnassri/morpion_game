@@ -21,7 +21,7 @@ attr_accessor :player_one, :player_two
     params = gets.chomp.to_i
     case params
       when 1
-        @game.player_test
+        @game.play_game
       when 2
         puts "Ok, bye"
         break
