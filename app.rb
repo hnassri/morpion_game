@@ -1,3 +1,6 @@
 require 'bundler'
 Bundler.require
-require 'lib/application'
+$:.unshift File.expand_path("./../lib", __FILE__)
+require 'application'
+
+Application.new.perform
