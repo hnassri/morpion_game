@@ -6,6 +6,8 @@ require_relative 'game'
 
 class Show
 
+  # on affiche le plateau avec cette méthode.
+
 def morpion (a1,a2,a3,b1,b2,b3,c1,c2,c3)
   puts ""
   puts "  " + " " * 7 + "1" + " " * 10 + "2" + " " * 10 + "3"
@@ -23,14 +25,6 @@ def morpion (a1,a2,a3,b1,b2,b3,c1,c2,c3)
   puts "   " + "|" + " " * 10 + "|" + " " * 10 + "|" + " " * 10 + "|"
   puts "   " + "-" * 34
   puts ""
-  # puts
-  #   puts "   1   2   3"
-  #   puts "A   #{a1} |  #{a2} | #{a3} " 
-  #   puts "  ---|---|---"
-  #   puts "B   #{b1} |  #{b2} | #{b3} "
-  #   puts "  ---|---|---"
-  #   puts "C   #{c1} |  #{c2} | #{c3} "
-  #   puts
 end
 
 
